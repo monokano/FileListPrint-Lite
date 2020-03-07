@@ -22,6 +22,8 @@ FileListPrint Liteは、CarbonアプリだったFileListPrintを64bit Cocoaア�
 ソースは[Xojo](https://www.xojo.com/)のプロジェクトファイルです。[MBS Plugin](https://www.monkeybreadsoftware.de/xojo/)を使用しています。
 
 ## 更新履歴
+* 2.1.1
+	* フォルダの中を展開した時にソートされていなかったのを修正した。
 * 2.1.0
 	* ダークモード対応。
 	* ページ設定を改善。
