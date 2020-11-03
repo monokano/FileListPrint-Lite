@@ -8,7 +8,7 @@ macOS用デストップアプリケーション。
 
 ## インストール
 FileListPrint Lite.appをアプリケーションフォルダなどへコピーします。
-* システム要件：OS X 10.10.5以降
+* システム要件：OS X 10.9以降
 * ダウンロードして解凍した直後は、FileListPrint Lite.appを選択し、右クリックメニューの［開く］を選択してください。
 
 ## 使い方
@@ -19,9 +19,14 @@ FileListPrint Lite.appにディスクやフォルダを与えます。2通りの
 ## 詳細
 FileListPrint Liteは、CarbonアプリだったFileListPrintを64bit Cocoaアプリとして作り直したものです。機能を必要最小限に絞ってLiteとしました。
 
-ソースは[Xojo](https://www.xojo.com/)のプロジェクトファイルです。[MBS Plugin](https://www.monkeybreadsoftware.de/xojo/)を使用しています。
+## 開発環境
+* [Xojo](https://www.xojo.com/) 2018r2
+* [MBS Plugin](https://www.monkeybreadsoftware.de/xojo/) 19.4
 
 ## 更新履歴
+* 2.3.0
+	* ドロップしたディスクやフォルダのサイズ取得に異様な時間がかかっていたので、このサイズ取得を廃止した。
+	* あえてちょっと古いXojo 2018でビルドして、システム要件をOS X 10.9までカバーした。そのかわりにダークモード非対応となった。
 * 2.2.0
 	* メニューバー［表示 > すべてを展開］を追加。
 	* メニューバー［表示 > すべて折りたたむ］を追加。
